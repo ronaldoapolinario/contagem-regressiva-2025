@@ -22,5 +22,6 @@ function atualizarContagem() {
   const passado = agora - inicio;
   const progresso = Math.min((passado / total) * 100, 100);
 
-  document.getElementById("progress").style.width = `${progresso}%`;
+  document.getElementById("progressText").textContent = progresso.toFixed(2) + "% completo";
+  setInterval(atualizarContagem, 1000);
 }

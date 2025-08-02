@@ -31,3 +31,28 @@ body {
   border-radius: 15px;
   transition: width 1s ease-in-out;
 }
+.progress-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #222;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  padding: 5px;
+}
+.progress-bar {
+  position: relative;
+  height: 30px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  transition: width 0.8s ease;
+  overflow: hidden;
+}
+
+#progressText {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+}
