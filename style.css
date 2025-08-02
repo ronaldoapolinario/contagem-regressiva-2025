@@ -1,0 +1,17 @@
+body {
+  background-color: #202030;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#countdown {
+  font-size: 2em;
+  margin-top: 20px;
+}
